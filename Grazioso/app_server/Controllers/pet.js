@@ -1,4 +1,5 @@
 /* GET pet view */
+<<<<<<< HEAD
 const pet = (req, res) => {
     // Example pet data (replace with database or API call)
     const petData = {
@@ -17,3 +18,12 @@ const pet = (req, res) => {
     pet 
   };
   
+=======
+const travel = (req, res) => {
+    res.render('pet', { title: 'Pet Rescue' });
+};
+
+module.exports = { 
+    pet
+};
+>>>>>>> 2084a8e (app_server update)
