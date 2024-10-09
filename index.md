@@ -43,7 +43,7 @@ Thank you for considering my portfolio. I am eager to contribute to future proje
 
 
 
-## [Chosen Artifact One](https://github.com/CodeJR911/CodeJR911.github.io/tree/main/Enhanced%20Software%20Design%20and%20Engineering)
+## [Chosen Artifact One](https://github.com/CodeJR911/CodeJR911.github.io/tree/main/Software%20Design%20and%20Engineering)
 
 The AnimalShelter.py (CRUD Functions) artifact is a Python script designed to handle the Create, Read, Update, and Delete (CRUD) operations for an animal shelter's database. This project was initially created in 2020 as part of a course project in Found in App Development. The script serves a significant role in managing shelter operations by ensuring efficient data handling and storage for the animals in the shelter.
 
