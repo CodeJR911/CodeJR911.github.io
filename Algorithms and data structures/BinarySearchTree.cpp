@@ -1,13 +1,3 @@
-//============================================================================
-// Name        : BinarySearchTree.cpp
-// Author      : Joaquin Esguerra Jr
-// Date        : October 8th, 2021
-// Instructor  : Ali Shaykhian, Ph.D.
-// Version     : 1.0
-// Copyright   : Copyright © 2017 SNHU COCE
-// Description : Hello World in C++, Ansi-style
-//============================================================================
-
 #include <iostream>
 #include <ctime>
 #include <string> // atoi
@@ -41,8 +31,9 @@ struct Node {
     Bid bid;
     Node* right;
     Node* left;
+    Node* parent; //Adding a parent node to make removal easier
     Node() {
-        right = left = nullptr;
+        right = left = parent = nullptr;
     }
     explicit Node(Bid bid) : Node() {
         this->bid = std::move(bid);
@@ -66,6 +57,7 @@ private:
     void addNode(Node* node, const Bid& bid);
     void inOrder(Node* node);
     Node* removeNode(Node* node, const string& bidId);
+    Node* findMin(Node* node);
 
 public:
     BinarySearchTree();
@@ -101,37 +93,64 @@ void BinarySearchTree::InOrder() {
      * Remove node prive method
      */
 Node* BinarySearchTree::removeNode(Node *node, const string& bidId) {
+    // If the node is null then return
     if (node == nullptr) {
         return node;
     }
+    // Recursively traverse the tree
     if(bidId.compare(node->bid.bidId) < 0) {
         node->left = removeNode(node->left, bidId);
     } else if (bidId.compare(node->bid.bidId) > 0) {
         node->right = removeNode(node->right, bidId);
     } else {
-        // if there is no children simply delete the node
+        // Node has no children
         if (node->left == nullptr && node->right == nullptr) {
             delete node;
             node = nullptr;
         }
-            // If there is a left children
-        else if (node->left != nullptr && node->right == nullptr) {
-            Node* tempNode = node;
-            node = node->left;
-            delete tempNode;
-            // If there is a right children
-        } else if (node->left == nullptr && node->right != nullptr) {
-            Node* tempNode = node;
-            node = node->right;
-            delete tempNode;
-        } else {
+            // Node has one child
+        else if (node->left == nullptr) {
             Node* temp = node->right;
-            while(temp->left == nullptr) {
-                temp = temp->left;
+            temp->parent = node->parent; //Set the parents of the child to the nodes parent
+            // Determine if the node is on the left or right of the parent
+            if(node == node->parent->left) {
+                node->parent->left = temp;
+            } else {
+                node->parent->right = temp;
             }
+            delete node;
+            node = temp;
+        } else if (node->right == nullptr) {
+            Node* temp = node->left;
+            temp->parent = node->parent; //Set the parents of the child to the nodes parent
+            // Determine if the node is on the left or right of the parent
+            if(node == node->parent->left) {
+                node->parent->left = temp;
+            } else {
+                node->parent->right = temp;
+            }
+            delete node;
+            node = temp;
+        }
+            // Node has two children
+        else {
+            // Find the min value on the right subtree
+            Node* temp = findMin(node->right);
+            // Copy the values
             node->bid = temp->bid;
+            // Remove the min value
             node->right = removeNode(node->right, temp->bid.bidId);
         }
+    }
+    return node;
+}
+/**
+ * Find the min value in the tree
+ */
+Node* BinarySearchTree::findMin(Node* node) {
+    // Traverse the left subtree until the min is found
+    while(node->left != nullptr) {
+        node = node->left;
     }
     return node;
 }
@@ -166,6 +185,7 @@ Bid BinarySearchTree::Search(const string& bidId) {
     // start from the root
     Node* current = root;
     while(current != nullptr) {
+        // If the current node is the one we are looking for
         if(current->bid.bidId == bidId) {
             return current->bid;
         }
@@ -173,6 +193,7 @@ Bid BinarySearchTree::Search(const string& bidId) {
         if(bidId.compare(current->bid.bidId) < 0) {
             current = current->left;
         } else {
+            // otherwise traverse right
             current = current->right;
         }
     }
@@ -192,22 +213,30 @@ void BinarySearchTree::addNode(Node* node, const Bid& bid) {
     // FIXME (2b) Implement inserting a bid into the tree
     // add to the right if the bid is smaller than the node
     if (node->bid.bidId.compare(bid.bidId) > 0) {
+        // If there is no left node
         if(node->left == nullptr) {
-            node->left = new Node(bid);
+            Node* n = new Node(bid);
+            n->parent = node; //Set the parent of the new node
+            node->left = n;
         } else {
+            // Recursively call the function
             this->addNode(node->left, bid);
         }
     } else {
         // add to left if the bid is bigger than the node
+        // If there is no right node
         if (node->right == nullptr) {
-
-            node->right = new Node(bid);
+            Node* n = new Node(bid);
+            n->parent = node; //Set the parent of the new node
+            node->right = n;
         } else {
+            // Recursively call the function
             this->addNode(node->right, bid);
         }
     }
 
 }
+// Print the tree in order
 void BinarySearchTree::inOrder(Node* node) {
     // Recursively teverse the tree to the right and left and print it as it treverse
     if(node != nullptr) {
