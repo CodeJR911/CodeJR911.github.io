@@ -43,7 +43,7 @@ Thank you for considering my portfolio. I am eager to contribute to future proje
 
 
 
-## [Chosen Artifact One](https://github.com/CodeJR911/CodeJR911.github.io/tree/main/Software%20Design%20and%20Engineering)
+## [Original Artifact One: Software Design and Engineering](https://github.com/CodeJR911/CodeJR911.github.io/tree/main/Software%20Design%20and%20Engineering)
 
 The AnimalShelter.py (CRUD Functions) artifact is a Python script designed to handle the Create, Read, Update, and Delete (CRUD) operations for an animal shelter's database. This project was initially created in 2020 as part of a course project in Found in App Development. The script serves a significant role in managing shelter operations by ensuring efficient data handling and storage for the animals in the shelter.
 
@@ -71,11 +71,11 @@ During the process of enhancing and modifying the AnimalShelter.py artifact, I l
 
 In conclusion, my narrative highlights the relevancy and value of including the AnimalShelter.py (CRUD Functions) artifact in my ePortfolio. The process not only reinforced my technical skills in software development but also provided essential insights for teaching and leading others in this domain.
 
-## [Chosen Artifact Two](https://github.com/CodeJR911/CodeJR911.github.io/tree/main/Algorithms%20and%20data%20structures)
+## [Original Artifact Two: Algorithms and Data Structures](https://github.com/CodeJR911/CodeJR911.github.io/tree/main/Algorithms%20and%20data%20structures)
 
 The file BST.cpp contains the implementation of a Binary Search Tree (BST) data structure. This data structure organizes nodes in such a way that the nodes in the left subtree have smaller values, while the nodes in the right subtree have larger values. The file includes functions for common BST operations like insertion, deletion, searching, and traversal (e.g., in-order, pre-order, post-order).
 
-## [Enhancement Two: Algorithms and Data Structure](https://github.com/CodeJR911/CodeJR911.github.io/tree/main/Enhanced%20Algorithms%20and%20data%20structures)
+## [Enhancement Two: Algorithms and Data Structures](https://github.com/CodeJR911/CodeJR911.github.io/tree/main/Enhanced%20Algorithms%20and%20data%20structures)
 
 Justification for Inclusion in ePortfolio:
 
@@ -123,7 +123,7 @@ Final Thoughts:
 
 Improving the BST.cpp artifact was a valuable learning experience that enhanced my understanding of algorithms. Overcoming challenges underscored the significance of adhering to best practices, thorough testing, and continuous learning for upcoming projects. These insights will inform a more effective approach to my future software development endeavors.
 
-## [Chosen Artifact Three](https://github.com/CodeJR911/CodeJR911.github.io/tree/main/Databases/Grazioso)
+## [Original Artifact Three: Databases](https://github.com/CodeJR911/CodeJR911.github.io/tree/main/Databases/Grazioso)
 
 The Salvare Search for Rescue app is a project designed for course CS 340: Client Server Development, focusing on the architecture and implementation of systems using client-side and server-side components. It serves as a tool for search and rescue operations, assisting teams in effectively managing missions. Key features include user authentication, real-time location tracking, emergency notifications, case management, and resource allocation. The client-side utilizes modern front-end technologies for user interface and experience, while the server-side manages database, backend logic, and security measures such as data encryption and best practices. Overall, the Salvare app demonstrates expertise in developing a secure and scalable client-server application to meet real-world needs in search and rescue missions.
 
