@@ -1,0 +1,38 @@
+<div class="container mt-5">
+    <h2 class="mb-4">Add a New Pet</h2>
+  
+    <form>
+      <div class="form-group">
+        <label for="name">Name:</label>
+        <input type="text" class="form-control" id="name" placeholder="Enter pet name" required>
+      </div>
+  
+      <div class="form-group">
+        <label for="species">Species:</label>
+        <select class="form-control" id="species" required>
+          <option value="Dog">Dog</option>
+          <option value="Cat">Cat</option>
+          <option value="Bird">Bird</option>
+          <option value="Other">Other</option>
+        </select>
+      </div>
+  
+      <div class="form-group">
+        <label for="breed">Breed:</label>
+        <input type="text" class="form-control" id="breed" placeholder="Enter breed">
+      </div>
+  
+      <div class="form-group">
+        <label for="age">Age:</label>
+        <input type="number" class="form-control" id="age" placeholder="Enter age" min="0" required>
+      </div>
+  
+      <div class="form-group">
+        <label for="description">Description:</label>
+        <textarea class="form-control" id="description" rows="3" placeholder="Enter a brief description"></textarea>
+      </div>
+  
+      <button type="submit" class="btn btn-primary mt-3">Add Pet</button>
+    </form>
+  </div>
+  

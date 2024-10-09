@@ -1,0 +1,8 @@
+{
+  "recommendations": [
+    "angular.ng-template",
+    "dbaeumer.vscode-eslint", // Linting for JavaScript/TypeScript
+    "esbenp.prettier-vscode", // Code formatting
+    "nrwl.angular-console" // Useful extension for Angular projects (if using Nx)
+  ]
+}

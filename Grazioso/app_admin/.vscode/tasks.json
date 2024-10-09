@@ -1,0 +1,57 @@
+
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "npm: start", // Add a label for clarity
+      "type": "npm",
+      "script": "start",
+      "isBackground": true,
+      "problemMatcher": [
+        "$tsc" // Use the default TypeScript problem matcher
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true // Make this the default build task
+      }
+    },
+    {
+      "label": "npm: test", // Add a label for clarity
+      "type": "npm",
+      "script": "test",
+      "isBackground": true,
+      "problemMatcher": [
+        "$tsc" // Use the default TypeScript problem matcher
+      ],
+      "group": {
+        "kind": "test",
+        "isDefault": true // Make this the default test task
+      }
+    },
+    {
+      "label": "npm: build", // Add a label for clarity
+      "type": "npm",
+      "script": "build",
+      "isBackground": true,
+      "problemMatcher": [
+        "$tsc" // Use the default TypeScript problem matcher
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": false // Make this a non-default build task
+      }
+    },
+    {
+      "label": "npm: lint", // Add a label for clarity
+      "type": "npm",
+      "script": "lint",
+      "isBackground": true,
+      "problemMatcher": [
+        "$tsc" // Use the default TypeScript problem matcher
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": false // Make this a non-default build task
+      }
+    }
+  ]
+}

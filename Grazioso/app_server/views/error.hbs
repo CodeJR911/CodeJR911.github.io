@@ -1,3 +1,15 @@
-<h1>{{message}}</h1>
-<h2>{{error.status}}</h2>
-<pre>{{error.stack}}</pre>
+<div class="container mt-5">
+  <div class="row">
+    <div class="col-md-12">
+      <h1 class="text-center text-danger">Oops! Something went wrong.</h1>
+      <h2 class="text-center">Error: {{message}}</h2>
+      <p class="text-center">Status Code: {{error.status}}</p>
+
+      <div class="mt-4">
+        <p class="text-center">
+          <a href="/" class="btn btn-primary">Go Back Home</a>
+        </p>
+      </div>
+    </div>
+  </div>
+</div>

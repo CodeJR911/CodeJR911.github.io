@@ -1,0 +1,39 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "outDir": "./out-tsc/app",
+    "types": [],
+    "esModuleInterop": true, // Enable ES module interop
+    "moduleResolution": "node", // Use node module resolution
+    "emitDecoratorMetadata": true, // Enable emitting decorator metadata
+    "experimentalDecorators": true, // Enable experimental decorators
+    "strict": true, // Enable strict type checking
+    "noImplicitAny": true, // Disallow implicit 'any' types
+    "strictNullChecks": true, // Enable strict null checks
+    "strictFunctionTypes": true, // Enable strict function types
+    "strictPropertyInitialization": true, // Enable strict property initialization
+    "noImplicitThis": true, // Disallow 'this' expressions with an implied 'any' type
+    "noUnusedLocals": true, // Disallow unused local variables
+    "noUnusedParameters": true, // Disallow unused parameters
+    "noImplicitReturns": true, // Disallow implicit 'any' return types
+    "noFallthroughCasesInSwitch": true, // Disallow fallthrough cases in switch statements
+    "noImplicitOverride": true, // Disallow implicit overrides
+    "noPropertyAccessFromIndexSignature": true, // Disallow property access from index signatures
+    "noUncheckedIndexedAccess": true, // Disallow unchecked indexed access
+    "noImplicitReferences": true, // Disallow implicit references
+    "noEmitOnError": true, // Do not emit output if any errors were reported
+    "importHelpers": true, // Import emit helpers from tslib
+    "downlevelIteration": true, // Enable downlevel iteration
+    "baseUrl": ".", // Set the base URL for module resolution
+    "paths": {
+      "~/*": ["src/*"] // Map '~' to the 'src' directory
+    }
+  },
+  "files": [
+    "src/main.ts"
+  ],
+  "include": [
+    "src/**/*.d.ts"
+  ]
+}
+

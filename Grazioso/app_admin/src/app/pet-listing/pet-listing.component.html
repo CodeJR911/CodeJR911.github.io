@@ -1,0 +1,10 @@
+<div class="container mt-5">
+    <h2 class="mb-4">Available Pets</h2>
+  
+    <div class="row">
+      <div class="col-md-4 mb-4" *ngFor="let pet of pets">
+        <app-pet-card [pet]="pet"></app-pet-card>
+      </div>
+    </div>
+  </div>
+  

@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Buddy",
+    "type": "Dog",
+    "breed": "Golden Retriever",
+    "age": 5,
+    "owner": "Jane Smith"
+  },
+  {
+    "name": "Max",
+    "type": "Dog",
+    "breed": "Labrador Retriever",
+    "age": 3,
+    "owner": "Alice Johnson"
+  },
+  {
+    "name": "Coco",
+    "type": "Monkey",
+    "breed": "Capuchin",
+    "age": 2,
+    "owner": "Bob Williams"
+  }
+]
