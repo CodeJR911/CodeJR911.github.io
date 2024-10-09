@@ -5,7 +5,7 @@
     <br /><br />
     I selected projects from various courses, including the IT 145 Foundation in Application Development course, where I improved CRUD functions for my animal shelter file. In the CS 260 Data Structures and Algorithms course, I enhanced the BST.cpp file, and from the CS 340 Client Server Development course, I upgraded my Salvare Search for Rescue application to a website.    
     <br /><br />
-    For further details about my improvements, including an initial code review, you can visit the GitHub Pages website at <ahref="https://codejr911.github.io">this link</a>.  
+    For further details about my improvements, including an initial code review, you can visit the GitHub Pages website at <a href="https://codejr911.github.io">this link</a>.  
     </p>
 
 
