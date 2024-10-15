@@ -39,8 +39,7 @@ These artifacts, detailed in the subsequent sections of the professional self-as
 Thank you for considering my portfolio. I am eager to contribute to future projects where these skills can be further applied and expanded.
  
 
-## Code Review
-
+## [Code Review Video](https://youtu.be/8LfXWiMDsSY)
 
 
 ## [Original Artifact One: Software Design and Engineering](https://github.com/CodeJR911/CodeJR911.github.io/tree/main/Software%20Design%20and%20Engineering)
