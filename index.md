@@ -3,7 +3,7 @@
 ---
 
 ## Self-Assessment
-My name is Joaquin Esguerra Jr and this assessment works to provide you with an overview of my expertise and contributions to the field of computer science, emphasizing key areas such as team collaboration, stakeholder communication, data structures and algorithms, software engineering, database management, and security.
+My name is Joaquin Esguerra Jr and this assessment works to provide you with an overview of my expertise and contributions to the field of computer science, emphasizing key areas such as team collaboration, stakeholder communication, algorithms and data structures, software design and engineering, databases, and security.
 
 Completing my coursework and developing my ePortfolio have significantly contributed to showcasing my strengths, shaping my professional goals and values, and preparing me for a promising career in the computer science field.
 
@@ -22,11 +22,11 @@ In conclusion, completing my coursework and developing my ePortfolio have been p
 ### Team Environments:
 In collaborative environments, I thrive in roles that require teamwork and effective communication with stakeholders. I have a proven track record of successfully integrating contributions from diverse team members into cohesive solutions, fostering an atmosphere of inclusivity and shared responsibility. This has been instrumental in the development and deployment of several impactful projects, where open lines of communication with stakeholders ensured alignment with user needs and project goals.
 
-### Data Structures and Algorithms:
+### Algorithms and Data Structures:
 My proficiency in data structures and algorithms is a cornerstone of my technical skill set. It underpins my ability to solve complex problems efficiently and has been applied in a variety of contexts, including the development of optimal search algorithms. I utilize this expertise to build scalable and maintainable systems, ensuring robust performance under varying workloads.
 
-### Software Engineering and Databases:
-Software engineering and database management are additional areas where I excel. Through rigorous design principles and methodological software development practices, I ensure that systems not only meet current requirements but are also adaptable to future needs. My experience in database design and optimization allows me to manage, manipulate, and secure data effectively, thereby fostering informed decision-making across the organization.
+### Software Design and Engineering / Databases:
+Software design and engineering / database management are additional areas where I excel. Through rigorous design principles and methodological software development practices, I ensure that systems not only meet current requirements but are also adaptable to future needs. My experience in database design and optimization allows me to manage, manipulate, and secure data effectively, thereby fostering informed decision-making across the organization.
 
 ### Security:
 I am deeply committed to maintaining system security. By implementing best practices in secure coding and data protection, I proactively defend against vulnerabilities and ensure user privacy and safety.
