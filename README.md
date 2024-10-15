@@ -1,4 +1,4 @@
-<h3 align="center">Computer Science Capstone Project</h3>
+<h3 align="center">CS 499 Computer Science Capstone</h3>
 
   <p align="center">
     My github.io website hosts the capstone project for my CS-499 class at Southern New Hampshire University. The course tasks involved improving final projects from previous courses in three key areas: Software Design and Engineering, Algorithms and Data structures, and Databases.
