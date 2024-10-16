@@ -7,7 +7,7 @@ My name is Joaquin Esguerra Jr and this assessment works to provide you with an 
 
 Completing my coursework and developing my ePortfolio have significantly contributed to showcasing my strengths, shaping my professional goals and values, and preparing me for a promising career in the computer science field.
 
-Throughout my program, I have been afforded numerous opportunities to cultivate my skills and deepen my understanding of computer science. For instance, in the Data Structures and Algorithms course, I was challenged to devise innovative solutions to complex computational problems. This experience not only honed my problem-solving abilities but also underscored my ability to think critically and algorithmically, which I have highlighted as a key strength in my ePortfolio.
+Throughout my program, I have been afforded numerous opportunities to cultivate my skills and deepen my understanding of computer science. For instance, in the Algorithms and Data Structures course, I was challenged to devise innovative solutions to complex computational problems. This experience not only honed my problem-solving abilities but also underscored my ability to think critically and algorithmically, which I have highlighted as a key strength in my ePortfolio.
 
 Beyond coursework, participating in hackathons has been instrumental in enhancing my programming skills and teamwork capabilities. For example, during a local hackathon, my team developed a machine learning model that predicted housing market trends. This experience helped me further appreciate the collaborative nature of the tech industry and reinforced my commitment to continuous learning and innovation.
 
@@ -23,7 +23,7 @@ In conclusion, completing my coursework and developing my ePortfolio have been p
 In collaborative environments, I thrive in roles that require teamwork and effective communication with stakeholders. I have a proven track record of successfully integrating contributions from diverse team members into cohesive solutions, fostering an atmosphere of inclusivity and shared responsibility. This has been instrumental in the development and deployment of several impactful projects, where open lines of communication with stakeholders ensured alignment with user needs and project goals.
 
 ### Algorithms and Data Structures:
-My proficiency in data structures and algorithms is a cornerstone of my technical skill set. It underpins my ability to solve complex problems efficiently and has been applied in a variety of contexts, including the development of optimal search algorithms. I utilize this expertise to build scalable and maintainable systems, ensuring robust performance under varying workloads.
+My proficiency in algorithms and data structures is a cornerstone of my technical skill set. It underpins my ability to solve complex problems efficiently and has been applied in a variety of contexts, including the development of optimal search algorithms. I utilize this expertise to build scalable and maintainable systems, ensuring robust performance under varying workloads.
 
 ### Software Design and Engineering / Databases:
 Software design and engineering / database management are additional areas where I excel. Through rigorous design principles and methodological software development practices, I ensure that systems not only meet current requirements but are also adaptable to future needs. My experience in database design and optimization allows me to manage, manipulate, and secure data effectively, thereby fostering informed decision-making across the organization.
@@ -34,13 +34,14 @@ I am deeply committed to maintaining system security. By implementing best pract
 ### Inclusion:
 To provide a tangible demonstration of my capabilities, I've included several technical artifacts in the portfolio: Enhanced CRUD functions for an Animal Shelter application demonstrating fundamental database interactions, Enhanced "BST.cpp" file showcasing efficient data handling and algorithm application in a binary search tree, and the "Salvare Search for Rescue" website, which highlights my skills in web development and user interaction design aimed at improving search and rescue operations.
 
-These artifacts, detailed in the subsequent sections of the professional self-assessment, collectively showcase my broad range of computer science skills and how they integrate to create comprehensive, real-world solutions. They are representative of my dedication to quality, innovation, and effective application of technology to address complex challenges.
+These artifacts, detailed in the subsequent sections of my professional self-assessment, collectively showcase my broad range of computer science skills and how they integrate to create comprehensive, real-world solutions. They are representative of my dedication to quality, innovation, and effective application of technology to address complex challenges.
 
 Thank you for considering my portfolio. I am eager to contribute to future projects where these skills can be further applied and expanded.
  
 
 ## [Code Review Video](https://youtu.be/8LfXWiMDsSY)
 
+For CS 499, my code review video is a walkthrough of existing code and my planned enhancements. I aim to demonstrate the rubric criteria for each category: software design and engineering, algorithm and data structures, and databases.
 
 ## [Original Artifact One: Software Design and Engineering](https://github.com/CodeJR911/CodeJR911.github.io/tree/main/Software%20Design%20and%20Engineering)
 
@@ -48,26 +49,30 @@ The AnimalShelter.py (CRUD Functions) artifact is a Python script designed to ha
 
 ## [Enhancement One: Software Design and Engineering](https://github.com/CodeJR911/CodeJR911.github.io/tree/main/Enhanced%20Software%20Design%20and%20Engineering)
 
-Justification for Inclusion in ePortfolio:
+### Justification for Inclusion in ePortfolio:
 
 I selected the AnimalShelter.py (CRUD Functions) artifact for inclusion in my ePortfolio because it exemplifies a comprehensive application of software development skills, particularly in database management and Python programming. The following specific components are highlighted:
 
 •    Efficient Database Operations: The script integrates with a database system to effectively handle data related to animals, showcasing proficiency in database connectivity and operations.
+
 •    Functionality and Scalability: Each CRUD operation is efficiently coded to be scalable, demonstrating the ability to write clear, maintainable, and reusable code.
+
 •    Error Handling and Validation: The script includes robust error handling and data validation mechanisms, ensuring the reliability and integrity of the operations.
 
 The artifact was further improved by optimizing database queries, enhancing code readability, and incorporating additional validation checks. Each enhancement demonstrates growth in my problem-solving and software optimization skills.
 
-Meeting Course Outcomes:
+### Meeting Course Outcomes:
 
 Through the enhancements made in Category One, I successfully met the planned course outcomes related to effective database management, coding best practices, and problem-solving in software development. These enhancements solidified my understanding of CRUD operations, error handling, and efficient database interactions. Currently, I have no updates to my outcome-coverage plans, as I believe the artifact comprehensively covers the intended learning outcomes.
 
-Reflection on the Enhancement Process:
+### Reflection on the Enhancement Process:
 
 During the process of enhancing and modifying the AnimalShelter.py artifact, I learned several valuable lessons:
 
 •    Iterative Development and Testing: The importance of iterative development became evident as I repeatedly tested and refined the CRUD functions to improve performance and reliability.
+
 •    Challenges and Solutions: I encountered challenges related to optimizing database queries to reduce execution time. Through research and practical application, I learned advanced data indexing techniques and efficient query structuring.
+
 •    Leadership in Collaboration: By documenting the enhancement process and creating comprehensive instructional materials, I developed leadership skills that will enable me to guide others through similar enhancement processes. This includes breaking down complex tasks into manageable steps and effectively communicating technical improvements.
 
 In conclusion, my narrative highlights the relevancy and value of including the AnimalShelter.py (CRUD Functions) artifact in my ePortfolio. The process not only reinforced my technical skills in software development but also provided essential insights for teaching and leading others in this domain.
@@ -78,7 +83,7 @@ The file BST.cpp contains the implementation of a Binary Search Tree (BST) data 
 
 ## [Enhancement Two: Algorithms and Data Structures](https://github.com/CodeJR911/CodeJR911.github.io/tree/main/Enhanced%20Algorithms%20and%20data%20structures)
 
-Justification for Inclusion in ePortfolio:
+### Justification for Inclusion in ePortfolio:
 
 Incorporating BST.cpp into my ePortfolio is a justified decision to demonstrate my proficiency in algorithms and data structures. The Binary Search Tree (BST) plays a crucial role in computer science, enabling efficient search, insertion, and deletion operations. By including a BST implementation, I aim to showcase my strong algorithmic thinking and deep understanding of data structures, emphasizing my expertise in dynamic memory management and recursive algorithms.
 
@@ -90,7 +95,7 @@ In order to guarantee the quality of my BST implementation, it is crucial to con
 
 Including BST.cpp in my ePortfolio highlights my technical skills and demonstrates my expertise in algorithms and data structures. This showcases my readiness for roles that demand a strong understanding of these fundamental concepts in computer science.
 
-Meeting Course Outcomes:
+### Meeting Course Outcomes:
 
 To assess my attainment of the course outcomes by improving the BST.cpp artifact and exploring potential updates to my coverage plan, I focused on the following:
 
@@ -102,11 +107,11 @@ I’ll consider enhancing my algorithmic implementation by incorporating more ad
 
 By strategically revising my plans to encompass a broader scope of course outcomes, I can showcase a comprehensive skill set that can be advantageous for academic evaluations and prospective career prospects.
 
-Reflection on the Enhancement Process:
+### Reflection on the Enhancement Process:
 
-Reflecting on the process of enhancing and modifying the BST.cpp artifact led to various learning experiences and challenges:
+Reflecting on the process of enhancing and modifying the BST.cpp artifact led to various learning experiences and challenges.
 
-Learning Experiences: 
+### Learning Experiences: 
 
 Upon delving into the implementation of Binary Search Trees (BST), I gained a deep understanding of key operations such as insertion, deletion, and search. This involved grasping the intricacies of managing nodes within a tree structure. Additionally, exploring traversal techniques including inorder, preorder, and postorder traversals provided valuable insights into diverse methods of accessing and manipulating tree nodes.
 
@@ -116,11 +121,11 @@ Furthermore, in terms of coding practices and refinement, I realized the importa
 
 In the realm of testing and validation, creating unit test cases proved instrumental in ensuring program functionality correctness across various scenarios. Implementing scripts for testing automation shed light on the efficiencies gained through automation in CI/CD pipelines.
 
-Challenges Faced: 
+### Challenges Faced: 
 
 When it comes to balancing algorithms, implementing self-balancing BSTs such as AVL trees or Red-Black trees introduces significant complexity and requires diligence. Balancing optimizations with readability and simplicity posed challenges in terms of performance optimization. Managing memory efficiently, especially with manual memory management in C++, is challenging to prevent leaks. Ensuring robustness with edge cases requires thorough testing and understanding. Choosing between recursive and iterative methods posed challenges, especially considering risks like stack overflow. Delving into thread-safety and synchronization mechanisms for concurrent access added complexity in terms of concurrency and thread-safety. Creating clear documentation was critical for code maintenance. Learning effective version control practices for collaborative coding is imperative in terms of documentation and collaboration.
 
-Final Thoughts:
+### Final Thoughts:
 
 Improving the BST.cpp artifact was a valuable learning experience that enhanced my understanding of algorithms. Overcoming challenges underscored the significance of adhering to best practices, thorough testing, and continuous learning for upcoming projects. These insights will inform a more effective approach to my future software development endeavors.
 
@@ -134,30 +139,24 @@ The Salvare Search for Rescue application was created Jan-Mar 2024
 
 The Salvare Search for Rescue application will be included in my ePortfolio to showcase a practical and comprehensive real-world project that demonstrates various software development skills. This artifact was carefully chosen to highlight my proficiency in client-side and server-side development, modern web technologies, system architecture, and end-to-end software engineering.
 
-Justification for Inclusion:
+### Justification for Inclusion:
 
 Integration of Theoretical Knowledge and Practical Application:
 The artifact was developed as part of course CS 340: Client Server Development, directly reflecting my learning and application of the client-server model.
 
-Course Relevance:
+### Course Relevance:
 
 It demonstrates practical application of the client-server model, directly relevant to my learning in course CS 340.
 
-Real-world Application:
+Real-world Application: The application addresses practical needs for search and rescue operations, demonstrating problem-solving abilities and relevance to societal needs.
 
-The application addresses practical needs for search and rescue operations, demonstrating problem-solving abilities and relevance to societal needs.
+### Comprehensive Skill Set:
 
-Comprehensive Skill Set:
+Frontend Development: It showcases the use of modern web technologies like React and Angular, for creating an intuitive, responsive user interface.
 
-Frontend Development:
+Backend Development: The implementation utilizes robust server-side frameworks such as Django, Node.js, illustrating versatility in backend programming.
 
-It showcases the use of modern web technologies like React and Angular, for creating an intuitive, responsive user interface.
-
-Backend Development:
-
-The implementation utilizes robust server-side frameworks such as Django, Node.js, illustrating versatility in backend programming.
-
-Key Technical Skills and Abilities Showcase:
+### Key Technical Skills and Abilities Showcase:
 
 User Authentication and Data Security: My expertise lies in implementing secure login and registration mechanisms using encryption and token-based authentication to ensure the protection of user data. I excel in employing best practices to prevent vulnerabilities like SQL injection, XSS, and CSRF, underscoring my unwavering commitment to security.
 
@@ -169,37 +168,25 @@ Database Management: With a strong command of databases such as MySQL, PostgreSQ
 
 Resource Allocation and Notification Systems: My skill set includes the development of smart allocation algorithms and real-time notification systems, reflecting my advanced problem-solving abilities and adeptness in creating business logic that supports critical operations.
 
-Artifact Improvement: Optimization and Enhancements
+### Artifact Improvement: Optimization and Enhancements
 
 I have been focused on several key areas to enhance the artifact:
 
-Scalability Improvements:
+Scalability Improvements: I plan to leverage cloud platforms to improve scaling and deployment, ensuring that the application can effectively handle increased loads.
 
-I plan to leverage cloud platforms to improve scaling and deployment, ensuring that the application can effectively handle increased loads.
+Performance Tuning: My efforts have been directed towards database indexing and query optimization to achieve faster data retrieval, ultimately enhancing the overall performance of the application.
 
-Performance Tuning:
+User Experience Enhancements: Through iterative user testing and feedback integration, I plan to have the UI/UX to ensure that the application is user-friendly and meets the specific requirements of rescue operations.
 
-My efforts have been directed towards database indexing and query optimization to achieve faster data retrieval, ultimately enhancing the overall performance of the application.
+Feature Extensions: I have begun adding functionalities such as multi-language support, offline capabilities, and integration with existing emergency management networks to extend the usability and scope of the application.
 
-User Experience Enhancements:
-
-Through iterative user testing and feedback integration, I plan to have the UI/UX to ensure that the application is user-friendly and meets the specific requirements of rescue operations.
-
-Feature Extensions:
-
-I have begun adding functionalities such as multi-language support, offline capabilities, and integration with existing emergency management networks to extend the usability and scope of the application.
-
-Security Augmentation:
-
-I’m working towards regular security updates and audits to strengthen data protection and ensure compliance with industry standards and regulations.
+Security Augmentation: I’m working towards regular security updates and audits to strengthen data protection and ensure compliance with industry standards and regulations.
 
 The Salvare Search for Rescue application exemplifies my proficiency in designing and building robust software solutions. Its presence in my ePortfolio offers a concrete showcase of my expertise in frontend and backend development, database management, real-time data processing, security implementation, and user experience design. Moreover, the ongoing enhancements and iterative refinements of the project underscore my dedication to delivering high-quality and adaptable technological solutions. This serves as compelling evidence of my capabilities for potential employers or academic evaluators.
 
-3.    Did you meet the course outcomes you planned to meet with this enhancement in Module One? Do you have any updates to your outcome-coverage plans?
-
 The adaptation of the Salvare Search for Rescue app for an iOS web environment is closely aligned with the course outcomes I aimed to achieve. My focus has been on practical application and theoretical integration within the software development domain. Here's a detailed explanation of how I have met some of these course outcomes and plan to complete more through various stages of the project. Additionally, I will address any updates to my outcome-coverage plans based on my recent progress.
 
-Course Outcomes Achieved:
+### Course Outcomes Achieved:
 
 In partially upgrading the Salvare application for an iOS web environment, I plan to demonstrate a comprehensive grasp of iOS guidelines and web development best practices. Through the utilization of frameworks like React Native and tools such as Ionic, I’ll ensure that the application not only met iOS compatibility requirements but also maintained high performance and provided a seamless user experience. This will showcase my proficiency in designing and implementing software solutions tailored to specific platform requirements while prioritizing robustness.
 
@@ -213,34 +200,31 @@ To ensure high security standards, I’ll implement robust security measures suc
 
 Successfully managing and executing the enhancement project from planning to deployment will highlight my project management skills. This will involve setting milestones, tracking progress, documenting enhancements, and addressing issues promptly, aligning with the desired course outcomes.
 
-Updates to Outcome-Coverage Plans:
-Performance Optimization (New Goal):
-Based on performance metrics, I am planning to focus additional efforts on enhancing the application’s performance on iOS devices. This will involve fine-tuning JavaScript execution using performance profiling tools specific to mobile environments.
+### Updates to Outcome-Coverage Plans:
 
-Advanced Features Integration (Updated Goal):
-My aim is to integrate advanced iOS-specific features such as push notifications and Swift-based extensions for certain functionalities that require native code integration. These updates will further demonstrate my deepening expertise in cross-platform development.
+Performance Optimization (New Goal): Based on performance metrics, I am planning to focus additional efforts on enhancing the application’s performance on iOS devices. This will involve fine-tuning JavaScript execution using performance profiling tools specific to mobile environments.
 
-Extensive Usability Testing (Expanded Scope):
-I plan to expand the scope of usability testing by involving a more diverse group of iOS users to ensure comprehensive feedback and high standards of user satisfaction. Incorporating this broader feedback loop will refine the UI/UX principles applied.
+Advanced Features Integration (Updated Goal): My aim is to integrate advanced iOS-specific features such as push notifications and Swift-based extensions for certain functionalities that require native code integration. These updates will further demonstrate my deepening expertise in cross-platform development.
 
-Automated Testing Implementation (New Goal):
-I will be implementing automated testing frameworks such as XCTest for iOS to ensure the application remains stable through incremental updates. This will include developing test cases for critical functionalities, enhancing the reliability, and maintainability of the software.
+Extensive Usability Testing (Expanded Scope): I plan to expand the scope of usability testing by involving a more diverse group of iOS users to ensure comprehensive feedback and high standards of user satisfaction. Incorporating this broader feedback loop will refine the UI/UX principles applied.
 
-Conclusion:
+Automated Testing Implementation (New Goal): I will be implementing automated testing frameworks such as XCTest for iOS to ensure the application remains stable through incremental updates. This will include developing test cases for critical functionalities, enhancing the reliability, and maintainability of the software.
+
+### Conclusion:
 
 The adaptation of the Salvare Search for Rescue application for an iOS web environment will strongly validate my achievement of the expected course outcomes. The incorporation of contemporary development methodologies, thorough user-centric enhancements, and bolstered security measures will mark significant progress. Moving forward, I will place continued emphasis on performance optimization, advanced feature integration, expanded usability testing, and automated testing implementation to further fortify and broaden my software development expertise.
 
-4.    Reflect on the process of enhancing and modifying the artifact. What did you learn as you were creating it and improving it? What challenges did you face? Upon reflecting on the process of enhancing and modifying the Salvare Search for Rescue application for an iOS web environment, although it’s not complete, I have gained valuable insights and encountered various challenges that have contributed to my growth as a software engineer. Here are the key learnings and challenges I encountered throughout this journey:
+### Learnings:
 
-Learnings:
-1. Cross-platform Development Knowledge: Working on making the application iOS-compatible is providing me with deeper insights into cross-platform development frameworks like React Native and tools such as Xamarin or Ionic. I’m gaining a better understanding of the intricacies involved in ensuring that a web application functions seamlessly on mobile operating systems without compromising performance or user experience.
-2. Adherence to Apple’s Human Interface Guidelines (HIG): Implementing design principles that conform to Apple’s HIG has been a substantial learning curve. Understanding the nuances of iOS design elements such as navigation, gestures, typography, and iconography is helping me create a more intuitive and aesthetically pleasing user interface.
-3. Security Practices for Mobile Applications: Enhancing the security protocols to incorporate iOS-specific features like Touch ID and Face ID provided thorough insight into mobile security practices. I’m learning how to integrate these biometric authentications securely and efficiently, thereby enhancing my knowledge of data protection measures on mobile platforms.
-4. Performance Optimization: Optimizing the performance for mobile meant diving into performance profiling tools and understanding metrics such as battery consumption, memory usage, and load times. This taught me about the importance of optimizing code specifically for mobile environments and using various tools to identify and rectify performance bottlenecks.
-5. User-centered Design: Focusing on the user experience for iOS devices is improving my ability to design applications that prioritize the end-user. Gathering user feedback and conducting usability testing informed me about common pain points on mobile applications and how to address them effectively.
-6. Utilizing Modern Development Tools: Using tools such as Xcode and VsCode for creating and simulating environments, alongside Agile tools for project management, enhanced my capability to work within an end-to-end development lifecycle. This equipped me with the skills to manage and deliver updates methodically.
+• Platform Development Knowledge: Working on making the application iOS-compatible is providing me with deeper insights into cross-platform development frameworks like React Native and tools such as Xamarin or Ionic. I’m gaining a better understanding of the intricacies involved in ensuring that a web application functions seamlessly on mobile operating systems without compromising performance or user experience.
+• Adherence to Apple’s Human Interface Guidelines (HIG): Implementing design principles that conform to Apple’s HIG has been a substantial learning curve. Understanding the nuances of iOS design elements such as navigation, gestures, typography, and iconography is helping me create a more intuitive and aesthetically pleasing user interface.
+• Security Practices for Mobile Applications: Enhancing the security protocols to incorporate iOS-specific features like Touch ID and Face ID provided thorough insight into mobile security practices. I’m learning how to integrate these biometric authentications securely and efficiently, thereby enhancing my knowledge of data protection measures on mobile platforms.
+• Performance Optimization: Optimizing the performance for mobile meant diving into performance profiling tools and understanding metrics such as battery consumption, memory usage, and load times. This taught me about the importance of optimizing code specifically for mobile environments and using various tools to identify and rectify performance bottlenecks.
+• User-centered Design: Focusing on the user experience for iOS devices is improving my ability to design applications that prioritize the end-user. Gathering user feedback and conducting usability testing informed me about common pain points on mobile applications and how to address them effectively.
+• Utilizing Modern Development Tools: Using tools such as Xcode and VsCode for creating and simulating environments, alongside Agile tools for project management, enhanced my capability to work within an end-to-end development lifecycle. This equipped me with the skills to manage and deliver updates methodically.
 
-Addressing Challenges in Multi-Platform Application Development
+### Addressing Challenges in Multi-Platform Application Development:
+
 One of the primary hurdles I’m facing is maintaining cross-platform compatibility. It is crucial to ensure that the codebase remained functional and optimized for both web and iOS platforms. Continuous testing and adjustments will be necessary, especially when handling platform-specific functionalities and ensuring a consistent user experience.
 
 Debugging the application within an iOS web environment, particularly for hardware-specific features, is presenting unique challenges. Setting up accurate simulation environments and utilizing remote debugging tools are critical steps, but the process proved time-consuming and demanded a meticulous approach.
