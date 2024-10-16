@@ -217,10 +217,15 @@ The adaptation of the Salvare Search for Rescue application for an iOS web envir
 ### Learnings:
 
 • Platform Development Knowledge: Working on making the application iOS-compatible is providing me with deeper insights into cross-platform development frameworks like React Native and tools such as Xamarin or Ionic. I’m gaining a better understanding of the intricacies involved in ensuring that a web application functions seamlessly on mobile operating systems without compromising performance or user experience.
+
 • Adherence to Apple’s Human Interface Guidelines (HIG): Implementing design principles that conform to Apple’s HIG has been a substantial learning curve. Understanding the nuances of iOS design elements such as navigation, gestures, typography, and iconography is helping me create a more intuitive and aesthetically pleasing user interface.
+
 • Security Practices for Mobile Applications: Enhancing the security protocols to incorporate iOS-specific features like Touch ID and Face ID provided thorough insight into mobile security practices. I’m learning how to integrate these biometric authentications securely and efficiently, thereby enhancing my knowledge of data protection measures on mobile platforms.
+
 • Performance Optimization: Optimizing the performance for mobile meant diving into performance profiling tools and understanding metrics such as battery consumption, memory usage, and load times. This taught me about the importance of optimizing code specifically for mobile environments and using various tools to identify and rectify performance bottlenecks.
+
 • User-centered Design: Focusing on the user experience for iOS devices is improving my ability to design applications that prioritize the end-user. Gathering user feedback and conducting usability testing informed me about common pain points on mobile applications and how to address them effectively.
+
 • Utilizing Modern Development Tools: Using tools such as Xcode and VsCode for creating and simulating environments, alongside Agile tools for project management, enhanced my capability to work within an end-to-end development lifecycle. This equipped me with the skills to manage and deliver updates methodically.
 
 ### Addressing Challenges in Multi-Platform Application Development:
